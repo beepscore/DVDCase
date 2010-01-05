@@ -159,7 +159,7 @@
 
 
 - (void)dealloc {
-    self.cabinetController = nil;
+    [cabinetController release], cabinetController = nil;
     [super dealloc];
 }
 

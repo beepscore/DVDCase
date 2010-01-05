@@ -152,7 +152,7 @@
 
 
 - (void)dealloc {
-    self.key = nil;
+    [key release], key = nil;
     [super dealloc];
 }
 
