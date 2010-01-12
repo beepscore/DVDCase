@@ -13,6 +13,6 @@
     NSDictionary *data;
     NSString *key;
 }
-@property (nonatomic, retain) NSString *key;
+@property (nonatomic, copy) NSString *key;
 
 @end
